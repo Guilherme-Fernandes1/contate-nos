@@ -1,0 +1,49 @@
+:root {
+    --cor-um: #000;
+    --cor-dois: #D9D9D9;
+    --cor-tres: #FFF;
+    --cor-quatro: #4F4B4B;
+    --cor-cinco: #615959;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: rgb(17, 99, 71);G
+}
+
+
+.headerPrincipal_logo {
+    width: 100px;
+    background-color: aqua;
+}
+
+.headerPrincipal img {
+    max-width: 100%; 
+    border-radius: 50%;
+}
+
+form {
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* smartphone min 767px - 48em
+tablet max 1023px 
+desktop min 1024px  64em  */
+
+
+
