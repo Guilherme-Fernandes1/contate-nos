@@ -13,15 +13,21 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 1.6rem;
-    background-color: rgb(17, 99, 71);G
+    background-color: var(--cor-cinco);
+    padding: .5em;
 }
 
+.headerPrincipal {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
 
 .headerPrincipal_logo {
     width: 100px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .headerPrincipal img {
@@ -29,18 +35,76 @@ body {
     border-radius: 50%;
 }
 
-form {
-    /* width: 100%; */
-    /* background-color: aqua; */
+.headerPrincipal p {
+    font-size: 2.5rem;
+    margin-left: 1rem;
 }
 
-label, input, textarea {
+.contato {
+    /* width: 100%; */
+    background-color: var(--cor-quatro);
+    border-radius: 5px;
+
+}
+
+.contato_preencher {
+    padding: .5rem;
+    border: none;
+
+}
+
+.contato_preencher  legend{
+    text-align: center;
+    margin-bottom: 1rem; 
+    font-size: 2rem;
+}
+
+.contato_preencher input, .contato_preencher textarea {
+    margin-bottom: 1rem; 
+    padding: 1rem;
+    border-radius: 5px;
+    /* background-color: var(--cor-dois); */
+    background-color: #c2bbbb;
+
+}
+
+.contato_preencher label {
+    margin-bottom: .5rem; 
+    font-size: 2rem;
+
+}
+
+.contato_preencher label, .contato_preencher input, .contato_preencher textarea {
     display: block;
     width: 100%;
     box-sizing: border-box;
 }
 
+.ajuda {
+    text-align: center;
+}
 
+.btn {
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn input {
+    padding: 1rem;
+} 
+
+.empresarial {
+    font-size: 1.5rem;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    scroll-margin-top: 1rem;
+}
 /* smartphone min 767px - 48em
 tablet max 1023px 
 desktop min 1024px  64em  */
