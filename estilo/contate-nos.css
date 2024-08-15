@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 1.6rem;
-    background-color: var(--cor-cinco);
+    background-color: var(--cor-quatro);
     padding: .5em;
 }
 
@@ -42,13 +42,13 @@ body {
 
 .contato {
     /* width: 100%; */
-    background-color: var(--cor-quatro);
+    background-color: var(--cor-cinco);
     border-radius: 5px;
-
+    box-shadow: .2em .1em 1em black;
 }
 
 .contato_preencher {
-    padding: .5rem;
+    padding: .8rem;
     border: none;
 
 }
@@ -91,13 +91,23 @@ body {
 
 .btn input {
     padding: 1rem;
+    border-radius: .5rem; 
+    color: white;
 } 
 
+.btn input[type="reset"] {
+    background-color: rgb(216, 131, 131);
+}
+
+.btn input[type="submit"] {
+    background-color: rgb(52, 141, 61);
+}
 .empresarial {
     font-size: 1.5rem;
 }
 .uppercase {
     text-transform: uppercase;
+    padding-top: 1rem; 
 }
 
 footer {
@@ -105,9 +115,16 @@ footer {
     border-top: 1px solid black;
     scroll-margin-top: 1rem;
 }
-/* smartphone min 767px - 48em
-tablet max 1023px 
+/* smartphone mAXn 767px - 48em
+tablet min 767px - 48em E max 1023px 
 desktop min 1024px  64em  */
+
+@media screen and (min-width: 56.25em){
+    main {
+        margin: 0 20%; 
+    } 
+    
+}
 
 
 
